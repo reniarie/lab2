@@ -23,5 +23,10 @@ int main()
 		printf("x1=x2=%.2lf.\n", x1);
 	}
 	
+	if (d < 0)
+	{
+		printf("No solution");
+	}
+	
     return 0;
 }
